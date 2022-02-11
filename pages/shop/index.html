@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../components/rating.css" />
+    <link rel="stylesheet" href="../../components/btn.css" />
+    <link rel="stylesheet" href="../../components/card.css" />
+    <link rel="stylesheet" href="../../general.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top header-style">
+        <p>Free shipping.30-day return or refund guarantee</p>
+        <nav>
+          <a href="../SignIn/index.html" class="btn-link">SIGN IN</a>
+        </nav>
+      </div>
+      <div class="header-bottom header-style">
+        <div class="logo-container">
+          <img src="../../Assests/logo.png" alt="" />
+        </div>
+        <nav class="first-nav">
+          <a href="../../index.html" class="btn-link">Home</a>
+          <a href="#" class="btn-link">Shop</a>
+        </nav>
+        <nav class="second-nav">
+          <a href="../Wishlist/index.html" class="btn-link">Wishlist</a>
+          <a href="../cart/index.html" class="btn-link">Add to cart</a>
+        </nav>
+      </div>
+      <div class="header-route">
+        <h4>Shop</h4>
+        <div class="header-route-links">
+          <a href="../../index.html">HOME</a>
+          <span>&#62;Shop</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <aside class="side-bar">
+          <nav>
+            <a href="#" class="category btn-link">CATEGORIES</a>
+            <div class="category-list">
+              <div>
+                <input type="checkbox" id="item1" name="item1" value="shoes" />
+                <label for="item1"> Shoes</label>
+              </div>
+              <div>
+                <input type="checkbox" id="item2" name="item2" value="Bag" />
+                <label for="item2"> Bag</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="item3"
+                  name="item3"
+                  value="T-shirt"
+                />
+                <label for="item3"> T-shirt</label>
+              </div>
+              <div>
+                <input type="checkbox" id="item4" name="item4" value="kids" />
+                <label for="item4">Kids</label>
+              </div>
+            </div>
+          </nav>
+          <nav>
+            <a class="category btn-link" href="#">FILTER BY PRICE</a>
+            <form action="">
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+              <label for="html">LOW TO HIGH</label><br />
+              <input type="radio" id="css" name="fav_language" value="CSS" />
+              <label for="css">HIGH TO LOW</label><br />
+            </form>
+          </nav>
+          <nav>
+            <a class="category btn-link" href="#">FILTER BY RATINGS</a>
+            <div class="category-list">
+              <a href="#">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </a>
+              <a href="#">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </a>
+              <a href="#">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </a>
+              <a href="#">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </a>
+              <div class="slidecontainer">
+                <input
+                  type="range"
+                  min="1"
+                  max="5"
+                  value="0"
+                  class="slider"
+                  id="myRange"
+                />
+              </div>
+            </div>
+          </nav>
+        </aside>
+        <div class="content-container">
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img1.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img2.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img3.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img4.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img5.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img6.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img7.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+          <div class="card-animated">
+            <div class="card-imgwrapper">
+              <img src="../../Assests/img8.webp" alt="image" />
+            </div>
+            <button class="btn btn-default"><i class="bi bi-heart"></i></button>
+            <div class="card-animated-body">
+              <a href="#" class="btn btn-link">Add to cart</a>
+              <h5>Item Name</h5>
+              <h4>$67.24</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <img src="../../Assests/footerlogo.png" alt="" srcset="" />
+          </div>
+          <p>The customer is at the heart of our business</p>
+        </div>
+        <div class="footer-shopping">
+          <h6>SHOPPING</h6>
+          <ul>
+            <li>Contact Us</li>
+            <li>payment Methods</li>
+            <li>Delivery</li>
+            <li>Return & Exchanges</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
