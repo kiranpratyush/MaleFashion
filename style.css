@@ -30,13 +30,13 @@
   font-size: 2rem;
   font-weight: 600;
 }
-.hero-text button {
+.hero-text a {
   align-self: flex-start;
   background-color: var(--color-black);
   padding: 10px 20px;
   border: none;
 }
-.hero-text button:hover {
+.hero-text a:hover {
   background-color: black;
 }
 .best-seller {
