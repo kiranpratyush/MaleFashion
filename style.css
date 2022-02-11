@@ -1,0 +1,66 @@
+.hero-container {
+  --color-red: red;
+  height: 800px;
+  background-image: url('./Assests/heo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  padding-left: 100px;
+}
+.hero-text p {
+  font-size: 1.2rem;
+}
+.hero-text h6 {
+  font-size: 0.9rem;
+  color: var(--color-red);
+}
+.hero-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.hero-text a {
+  align-self: flex-start;
+  background-color: var(--color-black);
+  padding: 10px 20px;
+  border: none;
+}
+.hero-text a:hover {
+  background-color: black;
+}
+.best-seller {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  font-size: 2rem;
+}
+.catalog-container {
+  max-width: 2600px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1060px) {
+  .catalog-container {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  }
+}
