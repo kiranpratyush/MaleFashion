@@ -40,6 +40,13 @@
           <a href="../cart/index.html" class="btn-link">Add to cart</a>
         </nav>
       </div>
+      <div class="header-route">
+        <h4>Shop</h4>
+        <div class="header-route-links">
+          <a href="../../index.html">HOME</a>
+          <span>&#62;Shop</span>
+        </div>
+      </div>
     </header>
     <main>
       <div class="main-container">
@@ -47,32 +54,37 @@
           <nav>
             <a href="#" class="category btn-link">CATEGORIES</a>
             <div class="category-list">
-              <a href="#">Men</a>
-              <a href="#">Women</a>
-              <a href="#">Bags</a>
-              <a href="#">Shoes</a>
-              <a href="#">Accessories</a>
-              <a href="#">Kids</a>
-              <a href="#">Kids</a>
-              <a href="#">Kids</a>
-              <a href="#">Kids</a>
-              <a href="#">Kids</a>
+              <div>
+                <input type="checkbox" id="item1" name="item1" value="shoes" />
+                <label for="item1"> Shoes</label>
+              </div>
+              <div>
+                <input type="checkbox" id="item2" name="item2" value="Bag" />
+                <label for="item2"> Bag</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="item3"
+                  name="item3"
+                  value="T-shirt"
+                />
+                <label for="item3"> T-shirt</label>
+              </div>
+              <div>
+                <input type="checkbox" id="item4" name="item4" value="kids" />
+                <label for="item4">Kids</label>
+              </div>
             </div>
           </nav>
           <nav>
             <a class="category btn-link" href="#">FILTER BY PRICE</a>
-            <div class="category-list">
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-              <a href="#">$0.00-$50.00</a>
-            </div>
+            <form action="">
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+              <label for="html">LOW TO HIGH</label><br />
+              <input type="radio" id="css" name="fav_language" value="CSS" />
+              <label for="css">HIGH TO LOW</label><br />
+            </form>
           </nav>
           <nav>
             <a class="category btn-link" href="#">FILTER BY RATINGS</a>
@@ -105,6 +117,16 @@
                 <span class="fa fa-star"></span>
                 <span class="fa fa-star"></span>
               </a>
+              <div class="slidecontainer">
+                <input
+                  type="range"
+                  min="1"
+                  max="5"
+                  value="0"
+                  class="slider"
+                  id="myRange"
+                />
+              </div>
             </div>
           </nav>
         </aside>
