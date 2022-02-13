@@ -1,0 +1,27 @@
+main {
+  max-width: 1500px;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.main-container {
+  flex-grow: 2;
+  display: grid;
+  align-content: center;
+
+  gap: 50px;
+}
+
+
+.cart-total {
+  align-self: center;
+  height: 200px;
+  flex-grow: 1;
+  max-width: 800px;
+}
