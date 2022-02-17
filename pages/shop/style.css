@@ -1,10 +1,9 @@
 main {
-  padding-left: 100px;
-  padding-right: 100px;
   margin-bottom: 50px;
 }
 .main-container {
   display: flex;
+ 
 }
 .side-bar {
   display: flex;
@@ -41,7 +40,6 @@ main {
   overflow-y: auto;
 }
 .content-container {
-  padding-left: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -51,5 +49,8 @@ main {
 @media (max-width: 1300px) {
   .content-container {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  }
+  .main-container{
+    flex-wrap: wrap;
   }
 }
