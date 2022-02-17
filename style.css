@@ -50,8 +50,7 @@
 }
 .catalog-container {
   max-width: 2600px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 100px;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(4, 1fr);
@@ -59,8 +58,16 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 550px) {
+  
+  .hero-container {
+    background-position: top 0% left 67%;
+  }
   .catalog-container {
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    padding: 15px;
+  }
+  .hero-text {
+    padding-left: 15px;
   }
 }
