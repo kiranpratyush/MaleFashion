@@ -1,3 +1,6 @@
+main {
+  padding: 0;
+}
 .hero-container {
   --color-red: red;
   height: 800px;
@@ -59,7 +62,6 @@
 }
 
 @media (max-width: 550px) {
-  
   .hero-container {
     background-position: top 0% left 67%;
   }
