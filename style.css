@@ -60,7 +60,10 @@ main {
   justify-content: center;
   margin-bottom: 20px;
 }
-
+.catalog-container {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  padding: 15px;
+}
 @media (max-width: 550px) {
   .hero-container {
     background-position: top 0% left 67%;
