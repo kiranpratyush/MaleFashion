@@ -1,8 +1,6 @@
 main {
   max-width: 1500px;
   display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
@@ -21,6 +19,7 @@ main {
 
 .cart-total {
   align-self: center;
+  max-width: 100%;
   height: 200px;
   flex-grow: 1;
   max-width: 800px;
