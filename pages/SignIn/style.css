@@ -12,13 +12,12 @@ label{
 }
 .auth-main{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
-    padding-left: 100px;
-    padding-right: 100px;
+    grid-template-columns: repeat(auto-fill,minmax(min(100%,500px),1fr));
+    padding:0px 100px;
     gap:10px;
     margin-top: 5rem;
     margin-bottom: 10rem;
-    justify-items: start;
+    
 }
 .form-signup{
     display: flex;
@@ -26,12 +25,20 @@ label{
     justify-content:space-between;
 }
 .sign-up{
-    width:70%;
+    width:100%;
 }
 .form-signin{
     display: flex;
     flex-direction: column;
 }
 .sign-in{
-    width:70%;
+    width:100%;
+}
+
+@media screen and (max-width:550px)
+{
+    .auth-main{
+        padding:15px;
+    }
+   
 }
