@@ -1,0 +1,79 @@
+:root {
+  --white-color: #fff;
+  --btn-hover: #333;
+  --btn-defaultcolor: #333;
+  /* Color asset for primary Button */
+  --primary-color: #007bff;
+  --primary-colorborder: #007bff;
+  --primary-hover: #0069d9;
+  --primary-hoverborder: #0062cc;
+  /* Color asset for secondary Button */
+  --secondary-color: #6c757d;
+  --secondary-colorborder: #6c757d;
+  --secondary-hover: ##5a6268;
+  --secondary-hoverborder: #545b62;
+  /* color asset for warning color */
+  --warning-color: #f0ad4e;
+  --warning-colorborder: #eea236;
+  --warning-hover: #ec971f;
+  --warning-hoverborder: #d58512;
+  /* color asset for info color */
+  --info-color: #5bc0de;
+  --info-colorborder: #46b8da;
+  --info-hover: #31b0d5;
+  --info-hoverborder: #269abc;
+  /* color asset for success color */
+  --success-color: #28a745;
+  --success-colorborder: #28a745;
+  --success-hover: #218838;
+  --success-hoverborder: #1e7e34;
+  /* color asset for link button */
+  --link-color: #007bff;
+  --link-hover: #007bff;
+
+  /* Size values */
+  --padding-topnbottom: 0.375rem;
+  --padding-leftright: 0.75rem;
+  --font-size: 1rem;
+  --border-radius: 0.25rem;
+}
+/* Basic button styling starts Here */
+.btn {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  border: 1px solid transparent;
+  padding: var(--padding-topnbottom) var(--padding-leftright);
+  line-height: 1.5;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.btn-link {
+  color: var(--link-color);
+  border-radius: 0;
+  border-color: transparent;
+  box-shadow: none;
+  padding: 0px;
+ 
+}
+.btn-link:focus,
+.btn-link:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-primary {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-colorborder);
+}
+.btn-primary:hover {
+  color: var(--white-color);
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hoverborder);
+}

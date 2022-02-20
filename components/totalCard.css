@@ -1,0 +1,31 @@
+.cart-total {
+  --color-bg: #f3f2ee;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
+  padding: 35px 40px 40px;
+  /* max-width: 400px; */
+  gap:10px;
+}
+
+.cart-total ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    list-style-type: none;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    color: red;
+}
+.btn-black{
+    --color-black:black;
+    background-color: var(--color-black);
+    white-space: initial;
+    border:none;
+}
+.btn-black:hover{
+    background-color:var(--color-black);
+}
