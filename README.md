@@ -14,5 +14,5 @@ It has the following Page
   - This is the page where user can sign in or sign up
   
 
-Here is the [Live link](https://testing2322.netlify.app/)
+Here is the [Live link](https://malefashion.netlify.app/)
   
